@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+</head>
+<body><center>
+    <h1>Welcome</h1>
+<h2>Oh shoot, look at this cool link if your are logged in</h2>
+<h3><a href="/supercoolmembersonlypage">don't you want to try it</a></h3>
+<h2>Create Account</h2>
+<form action="/create" method="POST">
+<input type="text" name="username" placeholder="username"> <br>
+<input type="text" name="password" placeholder="password"> <br>
+<button type="submit">Submit</button>
+</form>
+</center>
+
+<center> 
+  <h2>Login</h2>
+<form action="/login" method="POST">
+<input type="text" name="username" placeholder="username"> <br>
+<input type="text" name="password"placeholder="password"> <br>
+<button type="submit">login</button>
+</form>
+  
+</center>
+ <center>
+  <h2>Logout</h2>
+<form action="/logout" method="POST">
+<button type="submit">logout</button>
+</form>   
+ </center>
+
+    
+</body>
+</html>
